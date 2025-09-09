@@ -12,3 +12,4 @@ bash scripts/serve.sh
 curl -sS -X POST "http://127.0.0.1:8000/qa" \
   -H "Content-Type: application/json" \
   -d '{"query":"What are the inclusion criteria for registry X?"}'
+Built by:Sai Charan Vemuri
