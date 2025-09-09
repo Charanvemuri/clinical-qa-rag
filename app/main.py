@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from .schemas import QARequest, QAResponse, Citation
-from .chains import answer
+from .chains_faiss import answer
 from .guards import disclaimer
 
 app = FastAPI(title="Clinical QA RAG")
